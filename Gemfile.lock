@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     bond (0.4.3)
-    chunky_png (1.2.7)
+    chunky_png (1.2.8)
     compass (0.12.2)
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
@@ -42,10 +42,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  compass
-  haml
-  redcarpet
-  sass
+  compass (= 0.12.2)
+  haml (= 4.0.3)
+  redcarpet (= 2.3.0)
+  sass (= 3.2.9)
   shotgun
-  sinatra
+  sinatra (= 1.4.3)
   tux
