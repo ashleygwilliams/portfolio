@@ -11,7 +11,7 @@ if for some god foresaken reason you would like to have a local copy of this, fo
 5. visit `localhost:9393` to see it in action
 
 ##data
-projects and events are stored in YAML files, `events.yml` and `project.yml`, respectively. they live in the `db` folder.
+projects and events are stored in YAML files, `project.yml` and `events.yml`, respectively. they live in the `db` folder.
 
 i load them into local variables in a before filter, as shown:
 ```ruby
