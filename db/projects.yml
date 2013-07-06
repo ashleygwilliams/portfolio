@@ -24,12 +24,21 @@
   desc: "a Foursquare application that displays historical photographs using the geo-coded NYPL historical images API around the area of your check-in"
   tags: ["ruby", "rails", "activerecord", "postgres", "postGIS", "JSON", "javascript", "oAuth", "open data"]
   img: timetraveller.png
+  press: {
+    "Foursquare blog": "http://blog.foursquare.com/2013/06/19/a-different-kind-of-time-travel-go-back-to-the-new-york-of-100-years-ago/",
+    "Venture Beat": "http://venturebeat.com/2013/06/19/foursquare-nypl-historical-photos/",
+    "Beatbeat": "http://betabeat.com/2013/06/hey-history-nerds-turn-foursquare-into-an-orgy-of-vintage-photos/"
+  }
 
 - name: Canary Detector
   url: http://canarydetector.com/
   desc: "a smarter smoke alarm. allows you to connect to an monitor your device with your mobile phone. also serves as an indoor air quality monitor and produces an open dataset for indoor air quality."
   tags: ["javascript", "nodeJS", "sockets", "arduino", "html/css", "leaflet", "JSON", "google polylines", "open data"]
   img: canary.png
+  press: {
+    "Gizmodo": "http://gizmodo.com/every-smart-appliance-should-be-as-brilliant-as-this-sm-597966224", 
+    "Fast Company" : "http://www.fastcoexist.com/1682307/a-smarter-smoke-detector-that-tracks-the-horrible-air-youre-breathing"
+  }
 
 - name: AppGen
   url: http://appgen.me
@@ -51,3 +60,6 @@
   desc: "a leaderboard that displays popular topics and the twitter/instagram users who are most active on those topics"
   tags: ["ruby", "sinatra", "singly", "oAuth", "twitter", "instagram", "haml", "sass"]
   img: win.jpg
+  press: {
+    "Third Wave Fashion": "http://thirdwavefashion.com/2013/02/event-recap-the-hearst-fashion-hackathon-takes-on-nyfw/"
+  }

@@ -14,6 +14,13 @@
       = @project["org"]
 .description
   = @project["desc"]
+- if @project["press"]
+  .press
+    %ul
+    - @project["press"].each do |source, url|
+      %li
+        %a{:href=>"#{url}"}
+          = source
 .tags
   - @project["tags"].each do |tag|
     .btn
