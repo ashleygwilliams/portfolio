@@ -1,23 +1,17 @@
-#ratpack
+#portfolio
+this is a simple sinatra app to help me organize my projects, events, and writing and then display it to the world.
 
-a simple boilerplate for creating production-ready sinatra apps that use activerecord and sqlite
+##up and running
+if for some god foresaken reason you would like to have a local copy of this, follow these instructions to get up and running.
 
-twitterbootstrap using html and css are included.
+1. fork and clone this repo.
+2. `bundle install`
+3. `shotgun` to start a local server
+4. `tux` to get a console
+5. visit `localhost:9393` to see it in action
 
-if ya want haml and sass, be on the look for classy.
+##data
+projects and events are stored in YAML files, `events.yml` and `project.yml`, respectively. they live in the `db` folder.
 
-## Up and running
-1. `bundle install`
-2. `shotgun`
-3. visit `localhost:9393`
-
-## Gemfile
-- [sinatra](http://www.sinatrarb.com/): web framework
-- [sqlite3](https://github.com/luislavena/sqlite3-ruby): Database
-- [activerecord](http://guides.rubyonrails.org/active_record_querying.html): ORM
-- [sinatra-activerecord](https://github.com/bmizerany/sinatra-activerecord)
-- [rake](http://rake.rubyforge.org/)
-
-### Development
-   * [shotgun](https://github.com/rtomayko/shotgun)
-   * [tux](http://tagaholic.me/2011/04/10/tux-a-sinatra-console.html)
+##views
+the front-end is written in HAML and SASS. i'm using the `haml` gem, along with the `redcarpet` gem so that i can use a `:markdown` HAML filter for markup. the `sass` gem is, not surprisingly, used to let me render `scss`. to get both to work i am using `compass`, since Sinatra can't handle HAML and SASS outta the box.
