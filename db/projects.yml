@@ -1,0 +1,40 @@
+- name: RatPack
+  url: http://ashleygwilliams.github.io/ratpack
+  org: Flatiron School
+  org_url: http://flationschool.com
+  github: https://github.com/ashleygwilliams/ratpack
+  desc: "a simple boilerplate for creating production-ready sinatra apps that use activerecord, sqlite, and twitter bootstrap"
+  tags: ["ruby", "sinatra", "activerecord", "sqlite"]
+
+- name: treasury.io
+  url: http://treasury.io
+  org: CSV soundsystem 
+  org_url: http://csvsoundsystem.com
+  github: https://github.com/csvsoundsystem/treasury.io
+  desc: "the first-ever electronically-searchable database of the Federal government's daily cash spending and borrowing"
+  tags: ["javascript", "branding", "graphic design", "html/css", "JSON", "open data"]
+
+- name: NYPL Time Traveller
+  url: http://bit.ly/time-traveller
+  github: https://github.com/thejefflarson/nypl-hack
+  org: NYPL Labs
+  org_url: http://www.nypl.org/collections/labs
+  desc: "a Foursquare application that displays historical photographs around the area of your check-in"
+  tags: ["ruby", "rails", "activerecord", "postgres", "postGIS", "JSON", "javascript", "oAuth", "open data"]
+
+- name: Canary Detector
+  url: http://canarydetector.com/
+  desc: "a smarter smoke alarm. allows you to connect to an monitor your device with your mobile phone. also serves as an indoor air quality monitor and produces an open dataset for indoor air quality."
+  tags: ["javascript", "nodeJS", "sockets", "arduino", "html/css", "leaflet", "JSON", "google polylines", "open data"]
+
+- name: AppGen
+  url: http://appgen.me
+  github: https://github.com/appgen
+  desc: "a rapid prototyping tool that allows one to browse the superset of open civic datasets in the form of standalone, fully functional and branded web applications."
+  tags: ["ruby", "sinatra", "geoJSON", "javascript", "html/css", "leaflet", "open data"]
+
+- name: AppGen Audit
+  url: http://appgen.me/audit
+  github: https://github.com/appgen
+  desc: "a set of open data best practices and reporting algorithms. example reports are run on the NYC open data portal."
+  tags: ["ruby", "sinatra", "JSON", "javascript", "html/css", "d3.js", "open data"]

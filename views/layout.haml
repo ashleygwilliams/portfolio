@@ -1,0 +1,10 @@
+!!! 5
+%html
+  %head
+    %link{:href=>"css/bootstrap.min.css", :type=>"text/css", :rel=>"stylesheet"}
+    %link{:href=>"css/bootstrap-responsive.min.css", :type=>"text/css", :rel=>"stylesheet"}
+    %link{:href=>"css/custom.css", :type=>"text/css", :rel=>"stylesheet"}
+  %body
+    .container-fluid
+      = yield
+    %script{:src=>"/js/boostrap.min.js"}

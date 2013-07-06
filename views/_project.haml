@@ -1,0 +1,18 @@
+%h3
+  = @project["name"]
+- if @project["url"]
+  %a{:href=>"#{@project["url"]}"}
+    %icon{:class=>"icon-eye-open"}
+- if @project["github"]
+  %a{:href=>"#{@project["github"]}"}
+    %icon{:class=>"icon-download-alt"}
+- if @project["org"]
+  %h4
+    %a{:href=>"#{@project["org_url"]}"}
+      = @project["org"]
+.description
+  = @project["desc"]
+.tags
+  - @project["tags"].each do |tag|
+    .btn
+      = tag

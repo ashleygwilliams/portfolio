@@ -1,0 +1,17 @@
+%p
+  :markdown
+    # hi my name is ashley williams and i [make things](#projects) for, and on, the internet. i also [go to events and talk](#events) about civic technology, open data, open source community building, and developer education. i am trying to get better about writing my ideas down. 
+    <br/>  
+    # [say hi if you want.](http://twitter.com/ag_dubs)
+.row-fluid#projects
+  %h2 projects
+  - @projects.each do |project|
+    .span3
+      - @project = project
+      = partial(:project, @project)
+.row-fluid#events
+  %h2 events
+  - @events.each do |event|
+    .span4
+      - @event = event
+      = partial(:event, @event)
