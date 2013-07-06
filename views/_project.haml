@@ -16,12 +16,14 @@
   = @project["desc"]
 - if @project["press"]
   .press
+    %h5 Press:
     %ul
     - @project["press"].each do |source, url|
       %li
         %a{:href=>"#{url}"}
           = source
 .tags
+  %h5 Tech:
   - @project["tags"].each do |tag|
     .btn
       = tag

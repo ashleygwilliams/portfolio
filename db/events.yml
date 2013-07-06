@@ -4,6 +4,11 @@
   desc: "a weekend hackathon where kids and teens are challenged to build an application that uses open data"
   role: "served as a technical mentor; gave two lightning instruction sessions, one on github, one on reveal.js; ran adhoc IT services"
   img: yrsnyc.jpg
+  press: {
+    "Eventifier": "http://eventifier.co/event/yrsnyc/",
+    "Socrata Blog": "http://www.socrata.com/blog/nyc-youth-hackers-use-open-data/",
+    "The Guardian": "http://www.guardian.co.uk/technology/2013/jul/03/new-york-hackathon-next-generation-programmers"
+  }
 
 - name: Transparency Camp
   date: May 2013
@@ -17,6 +22,9 @@
   url: http://nycbigappscleanwebdevelopday.eventbrite.com/
   desc: "a civic hack day for building applications that promote environmental awareness using NYC open data; part of the NYC BigApps competition 'Big Issues' series"
   role: "received second place for Canary Detector, a smarter smoke detector; wrote up a quick node.js app using sockets to give a cool realtime demo"
+  press: {
+    "NYC Economic Development Corporation": "http://www.nycedc.com/blog-entry/nyc-bigapps-and-cleanweb-can-our-smartphones-make-us-greener"
+  }
 
 - name: Occupy Data NYC Hackathon Yackathon
   date: April 2013
@@ -29,8 +37,14 @@
   url: http://www.hearstfashionhack.com/
   desc: ""
   img: hearst.jpg
+  press: {
+    "Third Wave Fashion": "http://thirdwavefashion.com/2013/02/event-recap-the-hearst-fashion-hackathon-takes-on-nyfw/"
+  }
 
 - name: NYPL Labs Historical Geolocation Hack
   date: June 2013
   url: http://www.nypl.org/collections/labs
   img: nypl.jpg
+  press: {
+    "Peter Leonard": "http://www.thegogglesdonothing.com/archives/2013/06/nypl_maps_hack_2013.shtml"
+  }
