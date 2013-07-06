@@ -1,3 +1,5 @@
+-if @project["img"]
+  %img.img-polaroid{:src=>"/img/#{@project["img"]}"}
 %h3
   = @project["name"]
 - if @project["url"]
