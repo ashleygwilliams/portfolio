@@ -21,7 +21,7 @@
   github: https://github.com/thejefflarson/nypl-hack
   org: NYPL Labs
   org_url: http://www.nypl.org/collections/labs
-  desc: "a Foursquare application that displays historical photographs around the area of your check-in"
+  desc: "a Foursquare application that displays historical photographs using the geo-coded NYPL historical images API around the area of your check-in"
   tags: ["ruby", "rails", "activerecord", "postgres", "postGIS", "JSON", "javascript", "oAuth", "open data"]
   img: timetraveller.png
 
