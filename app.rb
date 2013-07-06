@@ -1,4 +1,5 @@
 require 'bundler'
+require 'yaml' 
 Bundler.require
 
 Dir.glob('./lib/*.rb') do |model|
