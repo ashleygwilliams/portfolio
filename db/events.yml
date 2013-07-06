@@ -1,3 +1,9 @@
+- name: "betaNYC #civichacknights"
+  date: ongoing
+  url: http://www.meetup.com/betanyc/
+  desc: "a community event that provides members with space to work on technical and policy projects, as well as discuss issues and share resources in support of NYC's civic technology ecosystem."
+  img: civichacknight.jpeg
+
 - name: Young Rewired State NYC
   date: June 2013
   url: https://youngrewiredstate.org/yrs-everywhere/yrs-new-york-city
@@ -8,6 +14,27 @@
     "Eventifier": "http://eventifier.co/event/yrsnyc/",
     "Socrata Blog": "http://www.socrata.com/blog/nyc-youth-hackers-use-open-data/",
     "The Guardian": "http://www.guardian.co.uk/technology/2013/jul/03/new-york-hackathon-next-generation-programmers"
+  }
+
+- name: "citibike NYC #civichacknight"
+  date: June 2013
+  url: http://www.meetup.com/betanyc/events/121671282/
+  role: "organizer"
+  desc: "an event dedicated to exploring and hacking the yet unreleased citibike NYC JSON endpoint."
+  img: citibike.jpeg
+
+- name: NYC Startup Weekend
+  date: June 2013
+  url: http://nyc.startupweekend.org/
+  role: "served as a technical mentor; had significant influence on the winning team Linesnapp, including originally telling them that their idea was awful"
+  desc: "an (in)famous event for technical entrepreneurs to attempt to ideate a technical product and produce a working, user-tested MVP in a single weekend."
+
+- name: "Mobilizing Historical Geodata: Hack NYC's Past with NYPL Labs"
+  date: June 2013
+  url: "https://www.google.com/calendar/render?eid=dHZqODQzaGJnbjQ2a2E2N2tjM2Q3anVwczRfMjAxMzA2MDRUMTMwMDAwWiBramhnYjkxN2EzanFrcjgxY2JpY2Q1a2Q0Y0Bn&sf=true&output=xml"
+  img: nypl2.jpg
+  press: {
+    "Peter Leonard": "http://www.thegogglesdonothing.com/archives/2013/06/nypl_maps_hack_2013.shtml"
   }
 
 - name: Transparency Camp
@@ -26,25 +53,28 @@
     "NYC Economic Development Corporation": "http://www.nycedc.com/blog-entry/nyc-bigapps-and-cleanweb-can-our-smartphones-make-us-greener"
   }
 
+- name: Meet Code for America NYC
+  date: May 2013
+  url: http://www.meetup.com/betanyc/events/111395902/
+  desc: "an event to introduce Code for America's fellows,, the brigade program captains, and the accelerator team."
+  role: "gave a talk about starting weekly civic hacknights as a critical reaction to the growth of 'hackathon' culture in NYC, and strategies for forming sustainable open source communities."
+  img: betanyc.jpeg
+
 - name: Occupy Data NYC Hackathon Yackathon
   date: April 2013
   url: http://occupydatanyc.org/2013/04/08/april-28tnd-yackathon/
   desc: "a symposium, or rather, yackathon, to bring the ideas, the outcomes, and the problems of hackathons into critical perspective."
   role: "represented code for america as an opposing perspective to the occupy data movement's and highight the unique successes and challenges of working for vs. against the govt"
+  img: hackyack.jpeg
+  press: {
+    "Mr Literati": "http://mrliterati.com/2013/04/30/hackathon-yackathon-reflections/"
+  }
 
 - name: Hearst Fashion Hack
   date: February 2013
   url: http://www.hearstfashionhack.com/
-  desc: ""
+  desc: "a hackathon from Hearst publishers with a focus on combining new fashion content with the latest mobile advancements and tools from Hearst's API partners, with special consideration given to creative solutions that connect readers and editors in real-time."
   img: hearst.jpg
   press: {
     "Third Wave Fashion": "http://thirdwavefashion.com/2013/02/event-recap-the-hearst-fashion-hackathon-takes-on-nyfw/"
-  }
-
-- name: NYPL Labs Historical Geolocation Hack
-  date: June 2013
-  url: http://www.nypl.org/collections/labs
-  img: nypl.jpg
-  press: {
-    "Peter Leonard": "http://www.thegogglesdonothing.com/archives/2013/06/nypl_maps_hack_2013.shtml"
   }

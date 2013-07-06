@@ -56,7 +56,7 @@
 
 - name: "#win"
   url: "http://www.hackathon.io/excellent-russian"
-  github: https://github.com/ashleygwilliams/hearst
+  github: https://github.com/ashleygwilliams/win
   desc: "a bespoke leaderboard for publishers that pulls in a set of keywords from specific categories of articles and displays the relative popularity of those keywords, as well as the twitter/instagram users who are most actively and successfully interacting with those keywords across social networks"
   tags: ["ruby", "sinatra", "singly", "oAuth", "twitter", "instagram", "haml", "sass"]
   img: win.jpg
