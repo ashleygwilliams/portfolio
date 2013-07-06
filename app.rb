@@ -19,7 +19,6 @@ module Portfolio
       end
 
       set :haml, { :format => :html5 }
-      set :sass, Compass.sass_engine_options
       set :scss, Compass.sass_engine_options
     end
 
