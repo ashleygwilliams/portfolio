@@ -44,3 +44,10 @@
   desc: "a set of open data best practices and reporting algorithms. example reports are run on the NYC open data portal."
   tags: ["ruby", "sinatra", "JSON", "javascript", "html/css", "d3.js", "open data"]
   img: appgenaudit.png
+
+- name: "#win"
+  url: "http://www.hackathon.io/excellent-russian"
+  github: https://github.com/ashleygwilliams/hearst
+  desc: "a leaderboard that displays popular topics and the twitter/instagram users who are most active on those topics"
+  tags: ["ruby", "sinatra", "singly", "oAuth", "twitter", "instagram", "haml", "sass"]
+  img: win.jpg

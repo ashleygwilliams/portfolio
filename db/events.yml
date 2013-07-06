@@ -1,23 +1,36 @@
 - name: Young Rewired State NYC
   date: June 2013
   url: https://youngrewiredstate.org/yrs-everywhere/yrs-new-york-city
+  desc: "a weekend hackathon where kids and teens are challenged to build an application that uses open data"
+  role: "served as a technical mentor; gave two lightning instruction sessions, one on github, one on reveal.js; ran adhoc IT services"
+  img: yrsnyc.jpg
 
 - name: Transparency Camp
   date: May 2013
   url: http://transparencycamp.org/schedule/2013/
+  desc: "an unconference focused on tech policy and civic technology to promote transparency and civic engagement"
+  role: "ran 3 unconference sessions: 1) building open source civic tech communities; 2) AppGen: a critique of the quality of open data offerings and the products produced at civic hackathons; 3) The logistics of running an open source civic tech community: a talk with the Code for America brigade captains"
+  img: tcamp.jpg
 
 - name: NYC Big Apps 3.0 CleanWeb Developer Day
   date: May 2013
   url: http://nycbigappscleanwebdevelopday.eventbrite.com/
+  desc: "a civic hack day for building applications that promote environmental awareness using NYC open data; part of the NYC BigApps competition 'Big Issues' series"
+  role: "received second place for Canary Detector, a smarter smoke detector; wrote up a quick node.js app using sockets to give a cool realtime demo"
 
 - name: Occupy Data NYC Hackathon Yackathon
   date: April 2013
   url: http://occupydatanyc.org/2013/04/08/april-28tnd-yackathon/
+  desc: "a symposium, or rather, yackathon, to bring the ideas, the outcomes, and the problems of hackathons into critical perspective."
+  role: "represented code for america as an opposing perspective to the occupy data movement's and highight the unique successes and challenges of working for vs. against the govt"
 
 - name: Hearst Fashion Hack
   date: February 2013
   url: http://www.hearstfashionhack.com/
+  desc: ""
+  img: hearst.jpg
 
 - name: NYPL Labs Historical Geolocation Hack
   date: June 2013
   url: http://www.nypl.org/collections/labs
+  img: nypl.jpg
