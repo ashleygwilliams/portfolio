@@ -1,0 +1,6 @@
+.row-fluid#projects
+  %h2 projects
+  - @projects.each do |project|
+    .span3
+      - @project = project
+      = partial(:project, @project)

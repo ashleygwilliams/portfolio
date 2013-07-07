@@ -23,12 +23,6 @@
   desc: "an event dedicated to exploring and hacking the yet unreleased citibike NYC JSON endpoint."
   img: citibike.jpeg
 
-- name: NYC Startup Weekend
-  date: June 2013
-  url: http://nyc.startupweekend.org/
-  role: "served as a technical mentor; had significant influence on the winning team Linesnapp, including originally telling them that their idea was awful"
-  desc: "an (in)famous event for technical entrepreneurs to attempt to ideate a technical product and produce a working, user-tested MVP in a single weekend."
-
 - name: "Mobilizing Historical Geodata: Hack NYC's Past with NYPL Labs"
   date: June 2013
   url: "https://www.google.com/calendar/render?eid=dHZqODQzaGJnbjQ2a2E2N2tjM2Q3anVwczRfMjAxMzA2MDRUMTMwMDAwWiBramhnYjkxN2EzanFrcjgxY2JpY2Q1a2Q0Y0Bn&sf=true&output=xml"
@@ -36,6 +30,12 @@
   press: {
     "Peter Leonard": "http://www.thegogglesdonothing.com/archives/2013/06/nypl_maps_hack_2013.shtml"
   }
+
+- name: NYC Startup Weekend
+  date: June 2013
+  url: http://nyc.startupweekend.org/
+  role: "served as a technical mentor; had significant influence on the winning team Linesnapp, including originally telling them that their idea was awful"
+  desc: "an (in)famous event for technical entrepreneurs to attempt to ideate a technical product and produce a working, user-tested MVP in a single weekend."
 
 - name: Transparency Camp
   date: May 2013

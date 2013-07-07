@@ -1,0 +1,6 @@
+.row-fluid#events
+  %h2 events
+  - @events.each do |event|
+    .span4
+      - @event = event
+      = partial(:event, @event)

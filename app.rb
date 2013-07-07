@@ -34,6 +34,14 @@ module Portfolio
       haml :index
     end
 
+    get '/projects' do
+      haml :projects
+    end
+
+    get '/events' do
+      haml :events
+    end
+
     get "/custom.css" do
       scss :styles
     end
