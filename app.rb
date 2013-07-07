@@ -42,6 +42,10 @@ module Portfolio
       haml :events
     end
 
+    get '/writing' do
+      haml :writing
+    end
+
     get "/custom.css" do
       scss :styles
     end
