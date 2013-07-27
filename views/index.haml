@@ -16,14 +16,12 @@
   %h2 projects
   - @projects.each do |project|
     %ul
-      - @project = project
       %li
-        = partial(:project, @project)
+        = project
 .row-fluid#events
   %h2 events
   - @events.each do |event|
     %ul
-      - @event = event
       %li
-        = partial(:event, @event)
+        = event
 
