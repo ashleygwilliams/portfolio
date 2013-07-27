@@ -1,5 +1,3 @@
--if @event["img"]
-  %img.img-polaroid{:src=>"/img/#{@event["img"]}"}
 %a{:href=>"#{@event["url"]}"}
   %h3
     = @event["name"]

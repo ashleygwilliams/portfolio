@@ -46,7 +46,7 @@ module Portfolio
       haml :writing
     end
 
-    get "/custom.css" do
+    get "/css/custom.css" do
       scss :styles
     end
 
