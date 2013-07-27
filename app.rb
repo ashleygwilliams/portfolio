@@ -46,8 +46,16 @@ module Portfolio
       haml :writing
     end
 
+    get '/rainbow' do
+      haml :rainbow, :layout => false
+    end
+
     get "/css/custom.css" do
       scss :styles
+    end
+
+    get "/css/rainbow.css" do
+      scss :rainbow
     end
 
     #helpers

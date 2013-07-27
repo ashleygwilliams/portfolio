@@ -1,0 +1,11 @@
+/* From http://lea.verou.me/css3patterns/ */
+/* Playing with CSS */
+body
+{
+  background:
+    linear-gradient(45deg, #F2F0F1 45px, transparent 45px)64px 64px,
+    linear-gradient(45deg, #F2F0F1 45px, transparent 45px,transparent 91px, #ffffff 91px, #ffffff 135px, transparent 135px),
+    linear-gradient(-45deg, #F2F0F1 23px, transparent 23px, transparent 68px,#F2F0F1 68px,#F2F0F1 113px,transparent 113px,transparent 158px,#F2F0F1 158px);
+  background-color:#ffffff;
+  background-size: 128px 128px;
+}

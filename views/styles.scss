@@ -1,14 +1,23 @@
 body {
 	font-family: monospace;
+	background:
+    linear-gradient(45deg, #F5F5F5 45px, transparent 45px)64px 64px,
+    linear-gradient(45deg, #F5F5F5 45px, transparent 45px,transparent 91px, #ffffff 91px, #ffffff 135px, transparent 135px),
+    linear-gradient(-45deg, #F5F5F5 23px, transparent 23px, transparent 68px,#F5F5F5 68px,#F5F5F5 113px,transparent 113px,transparent 158px,#F5F5F5 158px);
+  	background-color:#ffffff;
+  	background-size: 128px 128px;
+  	padding-bottom: 60px;
 }
 h1 {
-	padding-top: 30px;
-	padding-bottom: 60px;
-	font-size: 70px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 60px 0;
+	font-size: 100px;
+	font-family: Oswald, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
 }
 h2 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Oswald, Helvetica, Arial, sans-serif;
 }
 h3 {
 	display: inline;
@@ -16,10 +25,40 @@ h3 {
 ul {
 	list-style-type: none;
 	font-size: 10px;
+}
+#projects, #events {
+	margin: 0 auto;
 	width: 75%;
 }
+a {
+	color: white;
+	background-color: pink;
+	padding: 5px;
+	font-style: bold;
+	&:hover{
+		text-decoration: none;
+		background-color: white;
+		color: pink;
+	}
+}
+img {
+	text-align: center;
+} 
 .loveletter {
+	margin: 0 auto;
 	width: 75%;
 	font-size: 20px;
-	line-height: 1em;
+	line-height: 1.5em;
+}
+.yellow {
+	color: yellow;
+}
+.pink {
+	color: pink;
+}
+.portrait {
+	width: 25%;
+	margin: 20px auto;
+	display: block;
+	margin-bottom: -190px;
 }
