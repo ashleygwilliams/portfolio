@@ -4,9 +4,16 @@ body {
     linear-gradient(45deg, #F5F5F5 45px, transparent 45px)64px 64px,
     linear-gradient(45deg, #F5F5F5 45px, transparent 45px,transparent 91px, #ffffff 91px, #ffffff 135px, transparent 135px),
     linear-gradient(-45deg, #F5F5F5 23px, transparent 23px, transparent 68px,#F5F5F5 68px,#F5F5F5 113px,transparent 113px,transparent 158px,#F5F5F5 158px);
-  	background-color:#ffffff;
   	background-size: 128px 128px;
   	padding-bottom: 60px;
+}
+#background {
+	background-image: url(/img/stars.jpg);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top:0;
+	z-index: -1;
 }
 h1 {
 	padding: 60px 0;
@@ -33,7 +40,7 @@ ul {
 a {
 	color: white;
 	background-color: pink;
-	padding: 5px;
+	padding: 5px 10px;
 	font-style: bold;
 	&:hover{
 		text-decoration: none;
@@ -49,7 +56,14 @@ img {
 	width: 75%;
 	font-size: 20px;
 	line-height: 1.5em;
+	background: rgba(255,255,255,.6);
+	padding: 10px 20px;
 }
+p:last-child a {
+	color: black;
+	background: yellow;
+}
+
 .yellow {
 	color: yellow;
 }
