@@ -100,3 +100,14 @@ p:last-child a {
 	display: block;
 	margin-bottom: -190px;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	h1 {
+		font-size: 50px;
+	} 
+	.loveletter {
+		font-size: 10px;
+	}
