@@ -30,14 +30,6 @@ body {
 .container-fluid:after {
   clear: both;
 }
-#background {
-	background-image: url(/img/stars.jpg);
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	top:0;
-	z-index: -1;
-}
 h1 {
 	padding: 60px 0;
 	font-size: 100px;
